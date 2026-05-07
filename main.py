@@ -13,7 +13,11 @@ app = FastAPI()
 
 @app.post("/")
 async def find_title(titles: Titles):
+    if len(titles.other) == 0:
+        return {"top_result": "No titles to compare provided."}
+
     result = model.most_similar(titles.reference, titles.other)
+
     return {"top_result": result[0]}
 
 

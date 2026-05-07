@@ -8,6 +8,35 @@ inputs = [
       "reference": "Higgs boson in particle physics",
       "other": ["Best soup recipes", "Basel activities", "Particle physics at CERN"]
     },
+    {
+      "reference": "Climate change effects",
+      "other": [
+        "Climate change effects",
+        "Ocean photography",
+        "Laptop buying guide"
+      ]
+    },
+    {
+      "reference": "Renewable energy sources",
+      "other": [
+        "Solar panel installation"
+      ]
+    },
+    {
+      "reference": "Artificial intelligence",
+      "other": []
+    },
+    {
+      "reference": "Artificial intelligence",
+      "other": [""]
+    },
+    {
+      "reference": "",
+      "other": [
+        "Space exploration",
+        "Cooking pasta"
+      ]
+    }
 ]
 
 for body in inputs:
