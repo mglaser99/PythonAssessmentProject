@@ -1,0 +1,19 @@
+[project]
+name = "pythonassessmentproject"
+version = "0.1.0"
+description = "An API that finds the most similar string from a list of strings."
+authors = [
+    {name = "mglaser99",email = "melanie.glaser2@uzh.ch"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
