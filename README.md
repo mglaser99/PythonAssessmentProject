@@ -25,8 +25,8 @@ Running the test script `test.py`
     poetry run python test.py
 
 ## Implementation Details
-Embedding Model: [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
-Similarity Metric: Cosine similarity
+- Embedding Model: [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+- Similarity Metric: Cosine similarity
 
 ## GenAI Usage
 - GitHub Copilot was used for some of the commit messages.
