@@ -1,5 +1,6 @@
 # PythonAssessmentProject
 
+
 ## Launch the Project
 
 1. cd into the `PythonAssessmentProject` directory
@@ -11,16 +12,21 @@
 3. Start the application
 
         poetry run python -m src.main
+    The API will be available at http://localhost:8000
 
 ### Example Usage
 
-via commandline:
+Using curl:
 
     curl -X POST http://localhost:8000/ -H "Content-Type: application/json" -d "{\"reference\":\"Higgs boson in particle physics\",\"other\":[\"Best soup recipes\",\"Basel activities\",\"Particle physics at CERN\"]}"
 
-Using `test.py`
+Running the test script `test.py`
 
     poetry run python test.py
+
+## Implementation Details
+Embedding Model: [sentence-transformers/all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+Similarity Metric: Cosine similarity
 
 ## GenAI Usage
 - GitHub Copilot was used for some of the commit messages.
