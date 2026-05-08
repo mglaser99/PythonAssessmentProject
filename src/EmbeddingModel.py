@@ -42,7 +42,7 @@ class allMiniLM:
 
         index_max = np.argmax(similarities)
 
-        return others_embeddings[index_max][0], similarities[index_max]
+        return others_embeddings[index_max][0]
 
 
 
